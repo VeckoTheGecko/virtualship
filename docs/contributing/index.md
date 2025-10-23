@@ -27,6 +27,8 @@ cd virtualship
 
 ```{note}
 The `--recurse-submodules` flag is required to clone the Parcels submodule, which is used for testing and development.
+
+We require that you clone using SSH (submodules themselves are also defined using SSH - you need to have set up your GitHub SSH key accordingly).
 ```
 
 **Step 4:** Install the Pixi environment
